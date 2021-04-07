@@ -1,8 +1,8 @@
-.Footer{
+.Footer1{
 
-padding: 20px;
-background-color: lightgray;
-height:250px
+padding: 60px;
+background-color: #f8f9fa;
+
 
 }
 
@@ -12,13 +12,41 @@ height:250px
     justify-content: space-around;
     align-items: center;
     margin:20px;
-    flex-direction: column;
 
+}
+
+.footer_icon .MuiSvgIcon-root{
+    font-size: 70px
 }
 
 
 .footer_item_content{
     display: flex;
     align-items: center;
+
+}
+
+.Footer2{
+    padding : 50px;
+    background-color:lightgray
+}
+.footer2_information{
+
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+.footer2_icon .MuiSvgIcon-root{
+    margin: 0 5px;
+}
+
+.footer2_bloc{
+
+    padding:0 15px ;
+}
+
+.footer2_bloc ul li{
+    list-style: none;
 }
 
