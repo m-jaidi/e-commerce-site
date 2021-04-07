@@ -1,0 +1,24 @@
+.Footer{
+
+padding: 20px;
+background-color: lightgray;
+height:250px
+
+}
+
+.footer_item{
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:20px;
+    flex-direction: column;
+
+}
+
+
+.footer_item_content{
+    display: flex;
+    align-items: center;
+}
+
