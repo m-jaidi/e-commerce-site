@@ -1,0 +1,13 @@
+.title{
+    width:100%;
+    text-align: center;
+    margin : 60px 20px
+    
+}
+
+.title h1 {
+    padding-bottom: 70px;
+    word-spacing: 0.7rem;
+    font-weight:bold ;
+}
+

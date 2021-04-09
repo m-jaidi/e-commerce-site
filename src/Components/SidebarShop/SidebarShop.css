@@ -1,0 +1,36 @@
+.SidebarShop {
+    margin-left: 50px;
+    width: 250px;
+}
+
+.range {
+    width: 250px;
+}
+
+hr {
+    width: 250px;
+}
+
+.sidebarList ul li {
+    list-style-type: none;
+}
+
+.sidebarList li{
+    margin-left: 10px;
+    line-height: 2rem;
+    padding: 0 10px;
+    cursor: pointer;
+
+}
+
+.sidebarList li:hover{
+    background-color: lightgray;
+    
+}
+
+
+
+.SidebarShop h6{
+    color:gray
+}
+

@@ -11,7 +11,6 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-
         <div className="footer">
             <div className="Footer1">
                 <div className="footer_item">
@@ -85,17 +84,13 @@ const Footer = () => {
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto temporibus</p>
 
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control bg-transparent border" placeholder="Your Email Adress" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
-                                <span class="input-group-text" id="basic-addon2"><SendIcon/></span>
-                        </div>
-
-
-
+                            <input type="text" class="form-control bg-transparent border" placeholder="Your Email Adress" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                            <span class="input-group-text" id="basic-addon2"><SendIcon /></span>
                         </div>
                     </div>
                 </div>
-
             </div>
+        </div>
 
 
     )

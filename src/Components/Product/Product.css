@@ -1,0 +1,18 @@
+.button{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    
+}
+
+.product:hover  img{
+    opacity: 0.8;
+}
+.product:hover  .button{
+   display: block;
+}
+
+
+

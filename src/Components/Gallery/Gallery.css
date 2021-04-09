@@ -2,4 +2,16 @@
     width: 100%;
     display:flex;
     flex-wrap: wrap;
+    
+}
+
+.galleryItem{
+    min-width: 30%;
+    margin: 5px;
+    height:300px;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
