@@ -1,4 +1,30 @@
-/* .carousel-inner  {
-    height: 500px;
-} */
+ /* .carousel-inner  {
+    height: 750px;
+}  */
+
+a{
+    text-decoration: none;
+
+}
+
+
+
+#cart{
+    position: absolute;
+    border:1px solid;
+    border-radius: 50%;
+    background-color: red;
+    width: 25px;
+    right:35px;
+    text-align: center;
+   
+}
+
+
+
+.cartIcon{
+    cursor:pointer;
+    position: relative;
+
+}
 

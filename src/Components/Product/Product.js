@@ -18,7 +18,7 @@ const Product = ({ imageUrl, product_name, price, add }) => {
             </div>
             <h6 class="text-center mt-3">{product_name}</h6>
             <div class="text-center">
-                <small>{price}</small>
+                <small>{price+" €"}</small>
             </div>
         </div>
 
