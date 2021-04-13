@@ -30,8 +30,8 @@ const Footer = () => {
                             <MonetizationOnIcon />
                         </div>
                         <div>
-                            <h4>FREE SHOPPING RETURN</h4>
-                            <p>Free shopping over $300</p>
+                            <h4>MONEY BACK GUARANTEE</h4>
+                            <p>30 Days Money Back Guarantee</p>
                         </div>
                     </div>
 
@@ -40,8 +40,8 @@ const Footer = () => {
                             <CallIcon />
                         </div>
                         <div>
-                            <h4>FREE SHOPPING RETURN</h4>
-                            <p>Free shopping over $300</p>
+                            <h4>020-800-456-747</h4>
+                            <p>24/7 Available Support</p>
                         </div>
                     </div>
                 </div>

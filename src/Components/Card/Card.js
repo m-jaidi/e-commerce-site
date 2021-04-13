@@ -14,9 +14,9 @@ const Card = ({ items }) => {
                             <div className="product_information">
                                 <div className="product_name">Name: {item.name}</div>
                                 <div className="product_price">Price: {item.quantity * item.price} </div>
-
                             </div>
                         </div>
+
                     )
 
                 })
@@ -28,7 +28,7 @@ const Card = ({ items }) => {
 
 
 
-
+            <button type="button" className="btn btn-primary" id="btn-check">Checkout</button>
         </div>
     )
 }

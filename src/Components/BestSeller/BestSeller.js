@@ -9,12 +9,12 @@ import './Shop.css'
 import Data from "../../data"; 
 
 
-const Shop = (props) => {
+const BestSeller = (props) => {
   const [data, setData] = useState(Data.data); 
    const [products, setProducts] = useState([]); 
   
     const getData = ( ) =>  {
-       const dataFilterd=  data.filter( item => item.title === props.match.params.id)
+       const dataFilterd=  data.filter( item => item.title === "BestSeller")
        setProducts(dataFilterd[0].items); 
        
     }
@@ -23,7 +23,7 @@ const Shop = (props) => {
     return (
         <div className="Shop">
 
-            <HeaderShop  title={props.match.params.id} />
+            <HeaderShop  title="Our Best Seller" />
             <div className="main">
                 <SidebarShop />
                 <ListProducts products={products} />
@@ -36,4 +36,4 @@ const Shop = (props) => {
     )
 }
 
-export default withRouter(Shop);
+export default withRouter(BestSeller);

@@ -25,7 +25,7 @@ class Gallery extends Component {
             {
                 id: 2,
                 backImage: item2,
-                title: "Accessoires"
+                title: "Sneakers"
             },
             {
                 id: 3,

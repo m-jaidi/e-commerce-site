@@ -13,7 +13,8 @@ a{
     position: absolute;
     border:1px solid;
     border-radius: 50%;
-    background-color: red;
+    color:white;
+    background-color: black;
     width: 25px;
     right:35px;
     text-align: center;

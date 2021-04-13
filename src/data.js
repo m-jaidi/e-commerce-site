@@ -75,7 +75,7 @@ const SHOP_DATA = {
     },
     {
       id: 2,
-      title: 'Accessoires',
+      title: 'Sneakers',
       routeName: 'sneakers',
       items: [
         {
@@ -254,6 +254,67 @@ const SHOP_DATA = {
           name: 'Burgundy T-shirt',
           imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
           price: 25
+        }
+      ]
+    },
+    {
+      id: 6,
+      title: 'Our Best Seller',
+      routeName: 'hats',
+      items: [
+        {
+          id: 1,
+          name: 'Brown Brim',
+          imageUrl:p6,
+          price: 25
+        },
+        {
+          id: 2,
+          name: 'Blue Beanie',
+          imageUrl: p4,
+          price: 18
+        },
+        {
+          id: 3,
+          name: 'Brown Cowboy',
+          imageUrl: p3,
+          price: 35
+        },
+        {
+          id: 4,
+          name: 'Grey Brim',
+          imageUrl: p4,
+          price: 25
+        },
+        {
+          id: 5,
+          name: 'Green Beanie',
+          imageUrl: p5,
+          price: 18
+        },
+        {
+          id: 6,
+          name: 'Blue Jean Jacket',
+          imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
+          price: 14
+        },
+        {
+          id: 7,
+          name: 'Nike Brown High Tops',
+          imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
+          price: 18
+        },
+        {
+          id: 8,
+          name: 'Red Dots Dress',
+          imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+          price: 14
+        },
+        {
+          id: 9,
+          name: 'Yellow Track Suit',
+          imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
+          price: 16
         }
       ]
     }
